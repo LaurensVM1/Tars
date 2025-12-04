@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFrameWork>net8.0</TargetFrameWork>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+	<PackageId>Tars.JobScheduler</PackageId>
+	<Version>0.1.0</Version>
+	<Description>A lightweight, thread-safe job scheduler for .NET with retry logic and async support</Description>
+	<PackageTags>scheduler;jobs;background-tasks;task-scheduler;</PackageTags>
+	<PackageProjectUrl>https://github.com/LaurensVM1/Tars</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/yourusername/tars</RepositoryUrl>
+	<RepositoryType>git</RepositoryType>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageIcon>bot.png</PackageIcon>
+
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	<Title>Tars</Title>
+	<Authors>Laurens Van Moere</Authors>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Downloads\bot.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.0" />
+  </ItemGroup>
+
+</Project>
