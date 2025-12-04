@@ -27,12 +27,13 @@ TarsEngine.Run(async () => await SendEmailAsync());
 
 // Schedule for later
 TarsEngine.Schedule(() => Console.WriteLine("Later!"))
-    .At(DateTime.UtcNow.AddHours(1));
+          .At(DateTime.UtcNow.AddHours(1));
 
 // With retry logic
-TarsEngine.Schedule(() => CallExternalAPI())
-    .At(DateTime.UtcNow.AddMinutes(5))
-    .WithRetries(3);
+TarsEngine.Schedule(async () => await CallExternalAPI())
+          .WithRetry(3)
+          .At(DateTime.UtcNow.AddMinutes(5));
+
 ```
 
 ## License
