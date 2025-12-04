@@ -10,7 +10,7 @@
 	<Description>A lightweight, thread-safe job scheduler for .NET with retry logic and async support</Description>
 	<PackageTags>scheduler;jobs;background-tasks;task-scheduler;</PackageTags>
 	<PackageProjectUrl>https://github.com/LaurensVM1/Tars</PackageProjectUrl>
-	<RepositoryUrl>https://github.com/yourusername/tars</RepositoryUrl>
+	<RepositoryUrl>https://github.com/LaurensVM1/Tars</RepositoryUrl>
 	<RepositoryType>git</RepositoryType>
 	<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
