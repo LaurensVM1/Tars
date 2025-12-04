@@ -12,7 +12,7 @@
 	<PackageProjectUrl>https://github.com/LaurensVM1/Tars</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/yourusername/tars</RepositoryUrl>
 	<RepositoryType>git</RepositoryType>
-	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageIcon>bot.png</PackageIcon>
 
